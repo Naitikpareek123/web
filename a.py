@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
-tel = pd.read_csv(r"C:\Users\91785\Documents\GitHub\Naitikpareek123\python\Customer Churn and Revenue\project2.csv")
+tel = pd.read_csv(r"C:\Users\91785\Documents\GitHub\web\project2.csv")
 pd.set_option('display.max_rows',None)
 print(tel.head(5))
 print(tel.info())
